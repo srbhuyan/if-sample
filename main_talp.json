@@ -1,0 +1,87 @@
+{
+  "functions": [
+    {
+      "function": "main",
+      "talps": [
+        {
+          "condAttributes": [
+            {
+              "cond": "x>10",
+              "condLocation": "main.c:9:6",
+              "range": [
+                {
+                  "max": 2147483647,
+                  "min": 11
+                }
+              ],
+              "varLocation": "main.c:5:3",
+              "varName": "x",
+              "varType": "int"
+            }
+          ],
+          "cyclomaticComplexity": 2,
+          "id": "024n",
+          "loopAttributes": [
+            {
+              "cond": "For (j<z)",
+              "condLocation": "main.c:12:17",
+              "range": [],
+              "varLocation": "main.c:7:3",
+              "varName": "z",
+              "varType": "int"
+            },
+            {
+              "cond": "For (i<y)",
+              "condLocation": "main.c:10:17",
+              "range": [],
+              "varLocation": "main.c:6:3",
+              "varName": "y",
+              "varType": "int"
+            }
+          ]
+        },
+        {
+          "condAttributes": [
+            {
+              "cond": "x>20",
+              "condLocation": "main.c:14:13",
+              "range": [
+                {
+                  "max": 2147483647,
+                  "min": 21
+                }
+              ],
+              "varLocation": "main.c:5:3",
+              "varName": "x",
+              "varType": "int"
+            }
+          ],
+          "cyclomaticComplexity": 0,
+          "id": "k3T7",
+          "loopAttributes": []
+        },
+        {
+          "condAttributes": [
+            {
+              "cond": "~(x>20)",
+              "condLocation": "main.c:14:13",
+              "range": [
+                {
+                  "max": 20,
+                  "min": -2147483648
+                }
+              ],
+              "varLocation": "main.c:5:3",
+              "varName": "x",
+              "varType": "int"
+            }
+          ],
+          "cyclomaticComplexity": 0,
+          "id": "hrD5",
+          "loopAttributes": []
+        }
+      ]
+    }
+  ],
+  "name": "main.c"
+}
